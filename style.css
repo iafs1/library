@@ -1,0 +1,22 @@
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.booksForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bookInput {
+    display: flex;
+}
+
+.bookInput > label {
+    flex-basis: 55px;
+}
+
+.submitButton {
+    width: 80px;
+}
